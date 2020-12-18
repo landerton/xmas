@@ -1,0 +1,25 @@
+{
+  "name": "xmas",
+  "version": "1.0.0",
+  "description": "It turns a spreadsheet of names and addresses into address labels.",
+  "main": "src/labels.js",
+  "repository": "https://github.com/landerton/xmas",
+  "author": "landerton",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "labels": "echo 🧝‍ The magic begins 🧝‍ && NODE_ENV=real node ./src/labels.js && echo 🎁 Here is your address labels 🎁 && echo 🎄 Merry fucking Christmas 🎄",
+    "returns": "echo 🧝‍ The magic begins 🧝‍ && NODE_ENV=real node ./src/returns.js && echo 🎁 Here is your return labels 🎁 && echo 🎄 Merry fucking Christmas 🎄",
+    "example": "echo 🧝‍ The magic begins 🧝‍ && NODE_ENV=example node ./src/labels.js && echo 🎁 Here is your fake labels 🎁 && echo 🎄 You probably don\\'t have real friends anyways 🎄"
+  },
+  "dependencies": {
+    "config": "^3.2.4",
+    "csv": "^5.3.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdfkit": "^0.10.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}

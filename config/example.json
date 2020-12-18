@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "input": "./spreadsheets/example-addresses.csv"
+  },
+  "returns": {
+    "address": [
+      "Gergich Family",
+      "200 E Washington St",
+      "Pawnee Indiana, IN 46204"
+    ]
+  }
+}

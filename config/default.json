@@ -1,0 +1,24 @@
+{
+  "build_path": "build",
+  "font_title": "fonts/PTSerif-Bold.ttf",
+  "font_address": "fonts/PTMono-Regular.ttf",
+  "labels": {
+    "filename": "address-labels.pdf",
+    "template": "avery-5260",
+    "show_outline": false,
+    "align": "left",
+    "ideal_font_size": 15,
+    "offset_col": 1,
+    "offset_row": 1
+  },
+  "returns": {
+    "labels_needed": 80,
+    "ideal_font_size": 15,
+    "show_outline": false,
+    "align": "left",
+    "filename": "return-labels.pdf",
+    "template": "avery-18167",
+    "offset_col": 1,
+    "offset_row": 1
+  }
+}
